@@ -3,6 +3,7 @@
     padding: 0;
     box-sizing: border-box;
     text-decoration: none;
+    color: white;
 }
 body{
     width: 100%;
@@ -278,6 +279,31 @@ height: 89.16px;
 }
 
 
+.container1 > div {
+    width: 178px;
+height: 200px;
+font-family: DM Sans;
+font-size: 18px;
+font-weight: 500;
+line-height: 40px;
+letter-spacing: 0.01em;
+text-align: left;
+
+border-radius: 30px;
+}
+.container1{
+    display: flex;
+    justify-content: space-between;
+    row-gap: 30px;
+    padding: 20px 50px;
+ flex-wrap: wrap;
+}
+
+@media only screen and (max-width: 450px) {
+ .container1 > div{
+    margin: auto;
+ }
+  }
 @media only screen and (max-width: 735px) {
    .div2{
     display: none;
