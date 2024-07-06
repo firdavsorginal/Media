@@ -5,6 +5,7 @@
     text-decoration: none;
 }
 body{
+    width: 100%;
     height: 100%;
     background: linear-gradient(90.35deg, rgb(16, 16, 92), rgba(0, 0, 255, 0.466));
     background-repeat: no-repeat;
@@ -44,9 +45,12 @@ padding: 30px 50px;
 .right > img {
 width: 100%;
 padding: 0px 33px 66px 33px;
-
-
 }
+.section3 > img {
+    width: 100%;
+  
+}
+
 .div2{
     position: relative;
     top: 5px;
@@ -67,12 +71,213 @@ h1{
     font-size: 45px;
    color:  #D946EF;
 }
+.section2 > p {
+    text-align: center;
+}
+.section2 > h1{
+    text-align: center;
+}
 p{
     color: white;
 }
 .text{
     width: 100%;
 }
+.divlar > p {
+    font-family: DM Sans;
+font-size: 16px;
+font-weight: 400;
+line-height: 26px;
+}
+b{
+    color: white;
+   padding-left: 105px;
+}
+h2{
+    text-align: center;
+    color: white;
+    font-family: DM Sans;
+font-size: 24px;
+font-weight: 500;
+line-height: 31.25px;
+}
+.rang1 > img{
+ position: relative;
+ left: 20px;
+ top: 20px;
+}
+.rang2 > img{
+ position: relative;
+ left: 15px;
+ top: 20px;
+}
+.rang3 > img{
+ position: relative;
+ left: 15px;
+ top: 15px;
+}
+.rang4 > img{
+ position: relative;
+ left: 15px;
+ top: 15px;
+}
+.rang5 > img{
+ position: relative;
+ left: 15px;
+ top: 20px;
+}
+.rang6 > img{
+ position: relative;
+ left: 15px;
+ top: 20px;
+}
+.cart{
+    display: flex;
+ flex-direction: column;
+}
+.taxlaney{
+    display: flex;
+}
+.divi{
+    width: 370px;
+height: 336px;
+border-radius: 34px;
+border: 1px solid;
+/* border-image-source: linear-gradient(97.12deg, rgba(255, 255, 255, 0.08) -3.52%, rgba(255, 255, 255, 0.07) 100.35%); */
+background: rgba(0, 0, 0, 0.082);
+padding: 35px 30px;
+
+}
+.rang1{
+    width: 74px;
+height: 74px;
+background: linear-gradient(180deg, #8A7FD9 0%, #402F8F 100%);
+border-radius: 55px;
+margin: auto;
+}
+.rang2{
+    width: 74px;
+height: 74px;
+background: linear-gradient(180deg, #D97F95 0%, #923250 100%);
+border-radius: 55px;
+margin: auto;
+}
+.rang3{
+    width: 74px;
+height: 74px;
+background: linear-gradient(180deg, #84D8ED 0%, #4292BB 100%);
+border-radius: 55px;
+margin: auto;
+}
+.rang4{
+    width: 74px;
+height: 74px;
+background: linear-gradient(180deg, #92EFC3 0%, #2F8F5B 100%);
+border-radius: 55px;
+margin: auto;
+}
+.rang5{
+    width: 74px;
+height: 74px;
+background: linear-gradient(180deg, #BC7FD9 0%, #923283 100%);
+border-radius: 55px;
+margin: auto;
+}
+.rang6{
+    width: 74px;
+height: 74px;
+background: linear-gradient(180deg, #8684ED 0%, #4247BB 100%);
+border-radius: 55px;
+margin: auto;
+}
+.divlar{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+ padding-top: 50px;
+    row-gap: 50px;
+}
+.section3{
+    padding-top: 50px;
+    width: 1205px;
+height: 588px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.right1{
+    display: flex;
+    align-items: center;
+    width: 582px;
+height: 531px;
+border-radius: 4px;
+}
+.right1 > .text > h2 {
+    font-family: DM Sans;
+font-size: 42px;
+font-weight: 700;
+line-height: 54.68px;
+text-align: left;
+
+}
+.left1{
+    width: 100%;
+}
+.section8 > h1 {
+    color: white;
+    text-align: center;
+}
+.section0 > section {
+    display: flex;
+    flex-direction: row-reverse;
+}
+.section8 > p {
+    margin: auto;
+    text-align: center;
+    width: 480px;
+height: 51px;
+}
+h3{
+    color: white;
+    font-size: 28px;
+    text-align: center;
+}
+.text6{
+   text-align: center;
+}
+.text6 > p{
+    font-family: DM Sans;
+    font-size: 20px;
+}
+.cart4{
+    margin-top: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    row-gap: 30px;
+}
+.cart4 > div{
+    width: 270px;
+    height: 266px;
+    border-radius: 34px;
+    border: 1px;
+   background: rgba(0, 0, 0, 0.205);
+}
+.icon6{
+    width: 100px;
+    padding-top: 20px;
+  position: relative;
+  left: 85px;
+    
+}
+.nool{
+    margin: auto;
+    width: 90.64px;
+height: 89.16px;
+}
+
+
 @media only screen and (max-width: 735px) {
    .div2{
     display: none;
@@ -80,7 +285,10 @@ p{
    .div1{
     margin: auto;
    }
-   
+   .section0 > section {
+    display: flex;
+    flex-direction: column;
+}
   }
   @media only screen and (max-width: 700px) {
     section{
@@ -99,3 +307,27 @@ flex-direction: column;
     margin: auto;
     }
   }
+  @media only screen and (max-width: 840px) {
+  .divi{
+  width: 100%;
+    margin: auto;
+  }
+  }
+  @media only screen and (max-width: 1205px) {
+    .divi{
+          margin: auto;
+        }
+    }
+    @media only screen and (max-width: 615px) {
+       .cart66{
+      margin: auto;
+       }
+      }
+      @media only screen and (max-width: 907px) {
+       .cart66{
+        margin: auto;
+       }
+      }
+      @media only screen and (max-width: 530px) {
+    
+      }
