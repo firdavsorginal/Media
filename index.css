@@ -234,10 +234,9 @@ text-align: left;
     flex-direction: row-reverse;
 }
 .section8 > p {
-    margin: auto;
-    text-align: center;
-    width: 480px;
-height: 51px;
+    
+ 
+   text-align: center;
 }
 h3{
     color: white;
